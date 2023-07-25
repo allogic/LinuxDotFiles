@@ -1,5 +1,5 @@
 # LinuxDotFiles
 
 ```sh
-source ./LinuxDotFiles/import.sh
+source $(HOME)/LinuxDotFiles/import.sh
 ```
