@@ -3,9 +3,11 @@
 # devicelist
 devicelist()
 {
-	printf "STM32F072C8\n"
-	printf "STM32F103RC\n"
-	printf "STM32F042K6\n"
+	printf "STM32F042K6 -> FlashStart:0x8000000 FlashSize:0x007D00 PageSize:0x400\n"
+	printf "STM32F072C8 -> FlashStart:0x8000000 FlashSize:0x00FA00 PageSize:0x800\n"
+	printf "STM32F103RC -> FlashStart:0x8000000 FlashSize:0x03E800 PageSize:0x800\n"
+	printf "ATSAME70N19 -> FlashStart:0x0400000 FlashSize:0x080000 PageSize:0x200\n"
+	printf "ATSAME70J21 -> FlashStart:0x0400000 FlashSize:0x200000 PageSize:0x200\n"
 }
 
 # gdbcheatsheet
